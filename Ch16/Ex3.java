@@ -8,7 +8,7 @@ public class Ex3 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("What is your Tank Capacity:");
-        tankcap = scan.nexInt();
+        tankcap = scan.nextInt();
 
         System.out.println("What does your gage read:");
         gageread = scan.nextInt();
@@ -16,12 +16,12 @@ public class Ex3 {
         System.out.println("What is your Miles per Gallon:");
         mpg = scan.nextInt();
 
-        if (((tankcap*mpg)*(gageread/100))<200) = true){
-            
-            System.out.println("Safe to Proceed");
-        } else {
+        if (((tankcap*gageread/100)*(mpg))<200){
             
             System.out.println("Get Gas");
+        } else {
+            
+            System.out.println("Safe to Proceed");
         }
 
     }

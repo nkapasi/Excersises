@@ -26,7 +26,7 @@ public class Ex1 {
         } else if (depart < 16 && depart > 12){
             depart = 1;
         } else if (depart < 22 && depart >16) {
-            depart = 2;
-        } else
+            depart = 3;
+        } else (depart )
     }
 }
